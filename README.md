@@ -5,15 +5,13 @@ This Gatsby plugin helps you subscribe new email addresses to a Mailchimp email 
 ## How It Works Under The Hood
 What this plugin does is scan your `gatsby-config` for your MC settings.  Then, once you import and invoke the `addToMailchimp` method in your React component, it makes a jsonp request of the email/attributes to MC's server using your settings.
 
-## Using Gatsby v2?
-If you are still on Gatsby v1, skip this section.  The master branch of this repo (v3) is still meant for Gatsby v1 use.  Once Gatsby releases their v2, I will upgrade this repo to be compatible and bump the version to v4.
+## Gatsby v1
+This is the official branch for Gatsby v1.  If you are on the latest version of Gatsby (2.0+), then you should be using the master branch.  But if you haven't updated your app to the latest Gatsby version and still on v1, then this is your branch!
 
-In the meantime, update your `package.json` to:
+To use this previous version of this plugin, pdate your `package.json` to:
 ```javascript
-"gatsby-plugin-mailchimp": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v2",
+"gatsby-plugin-mailchimp": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git#gatsby-v1",
 ```
-
-That branch should work fine in Gatsby v2 for now.  [Read here](https://github.com/benjaminhoffman/gatsby-plugin-mailchimp/issues/21#issuecomment-417954338) for more context. NOTE: once v2 becomes the official release, I will merge the branch above into master and slowly drop support for v1.
 
 
 ## Getting Started
